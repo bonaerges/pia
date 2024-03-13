@@ -1,0 +1,13 @@
+<!doctype html>
+<title>Result</title>
+<h1>Prediction Result for Yoga Model</h1>
+<h2><p>Predicted Class: {{ class_name }}</p></h2>
+<h2><p>Confidence: {{ confidence }}</p></h2>
+<div>
+    <h3>Your Uploaded Image to compare with Predicted Class: {{ class_name }} </h3>
+    <img src="data:image/jpeg;base64,{{ uploaded_image }}" alt="Uploaded Image" height="240" width="240">
+</div>
+<div>
+    <h3>Example Image from Predicted Class: {{ class_name }}</h3>
+    <img src="data:image/jpeg;base64,{{ class_example_image  }}" alt="Example Trained Image" height="240" width="240">
+    </div>
