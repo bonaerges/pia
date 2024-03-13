@@ -1,0 +1,8 @@
+flask==3.0.0
+pillow==8.4.0
+tensorflow==2.15.0
+requests==2.26.0 # Used in testing.py
+werkzeug>=3.0.0
+tensorrt
+numpy
+
